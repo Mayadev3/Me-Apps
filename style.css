@@ -13,12 +13,51 @@ h3 {
 h1 {
   font-size: 96px;
 }
+@media (max-width: 576px) {
+  h2.top-header {
+    font-size: 35px;
+  }
+  h1 {
+    font-size: 55px;
+  }
+}
 .into {
   margin-top: 95px;
 }
 h2.top-header {
   font-size: 48px;
   text-align: center;
+}
+@media (max-width: 767px) {
+  h2.app-header {
+    text-align: center;
+  }
+  p.p-apps {
+    text-align: center;
+  }
+  button.btn {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    font-size: 20px;
+  }
+}
+@media (max-width: 280px) {
+  h2.top-header {
+    font-size: 30px;
+  }
+  h2.app-header {
+    font-size: 43px;
+  }
+  button.btn {
+    padding: 13px;
+  }
+  h2.contact-me {
+    font-size: 37px;
+  }
+  a.email-link {
+    font-size: 20px;
+  }
 }
 
 h3 {
