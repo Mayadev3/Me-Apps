@@ -98,37 +98,53 @@ h3 {
   text-align: center;
 }
 
-@media (max-width: 280px) {
+@media (max-width: 540px) {
+  /*527*/
+  a.navbar-brand {
+    font-size: 15px;
+  }
+  button.navbar-toggler {
+    font-size: 10px;
+  }
+  a.nav-link {
+    font-size: 10px;
+  }
   h2.top-header {
+    font-size: 33px;
+  }
+  h1.my-name {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+  h2.app-header {
     font-size: 30px;
   }
+  p.p-apps {
+    font-size: 13px;
+  }
+  .navigation-links a {
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 15px 10px;
+  }
+
   h1.about-header {
     font-size: 37px;
   }
-  h3 {
-    font-size: 23px;
+  p.about-paragraph {
+    font-size: 10px;
+  }
+  img {
+    margin-bottom: 7px;
   }
 
-  h2.app-header {
-    font-size: 43px;
-  }
   button.btn {
-    padding: 13px;
+    padding: 6px;
   }
-  h2.contact-me {
-    font-size: 37px;
-  }
-  a.email-link {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 576px) {
-  h2.top-header {
-    font-size: 35px;
-  }
-  h1 {
-    font-size: 55px;
+  a.link {
+    font-size: 13px;
   }
 }
 
@@ -144,5 +160,23 @@ h3 {
     margin: 0 auto;
     width: 70%;
     font-size: 20px;
+  }
+}
+
+/*Bottom of the Contact Page*/
+@media (max-width: 526px) {
+  h2.contact-me {
+    font-size: 20px;
+  }
+  a.email-link {
+    font-size: 14px;
+  }
+}
+@media (max-width: 992px) {
+  h2.contact-me {
+    font-size: 18px;
+  }
+  a.email-link {
+    font-size: 12px;
   }
 }
